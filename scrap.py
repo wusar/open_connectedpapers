@@ -6,6 +6,10 @@ from bs4 import BeautifulSoup
 import re
 import logging
 import json
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from datetime import datetime
+
 
 logger = logging.getLogger(__name__)
 
@@ -132,7 +136,12 @@ def get_paper_data():
     return papers_citation_data
 
 
-if __name__ == "__main__":
+def visualize():
+
+    def rgba_to_hex(rgba):
+        r, g, b, a = rgba
+        return "#{:02x}{:02x}{:02x}".format(int(r * 255), int(g * 255), int(b * 255))
+
     with open("papers_data.json", "r") as f:
         papers_citation_data = json.load(f)
     from pyecharts import options as opts
@@ -141,15 +150,35 @@ if __name__ == "__main__":
     # 从你的数据中提取节点和边
     nodes = []
     edges = []
+    cmap = plt.get_cmap("Blues")  # 使用蓝色渐变色图
+
+    # 获取最早和最晚的年份
+    min_year = min(int(paper["publication_year"]) for paper in papers_citation_data)
+    max_year = max(int(paper["publication_year"]) for paper in papers_citation_data)
+
+    # 将年份转换为数字，以便可以映射到颜色
+    min_year_num = mdates.date2num(datetime(min_year, 6, 30))
+    max_year_num = mdates.date2num(datetime(max_year, 6, 30))
+
     for paper in papers_citation_data:
+        year_num = mdates.date2num(datetime(int(paper["publication_year"]), 6, 30))
+        rgba_color = cmap(
+            max((year_num - min_year_num) / (max_year_num - min_year_num), 0.1)
+        )  # 计算颜色值
+        hex_color = rgba_to_hex(rgba_color)
+
         nodes.append(
-            {"name": paper["paper_title"], "symbolSize": paper["citation_count"] / 10}
+            {
+                "name": paper["paper_title"],
+                "symbolSize": paper["citation_count"] / 10,
+                "itemStyle": {"color": hex_color},
+            }
         )
         if "citation_papers_data" in paper:
             for citation in paper["citation_papers_data"]:
                 print("add new edge: ", paper["paper_title"], citation["paper_title"])
                 edges.append(
-                    {"source": paper["paper_title"], "target": citation["paper_title"]}
+                    {"source": citation["paper_title"], "target": paper["paper_title"]}
                 )
 
     # 创建图表
@@ -161,3 +190,8 @@ if __name__ == "__main__":
 
     # 渲染图表
     graph.render("papers_citation_graph.html")
+
+
+if __name__ == "__main__":
+    papers_citation_data = get_paper_data()
+    visualize()

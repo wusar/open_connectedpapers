@@ -1,3 +1,4 @@
 pyecharts
 selenium
 beautifulsoup4
+matplotlib
