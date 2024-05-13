@@ -64,6 +64,7 @@ def parse_paper_div(paper_div, papers_data):
         logger.error(f"Error parsing paper div: {e}")
 
 
+
 def find_all_citations(paper_url):
     # Extract all citations of the paper
     driver = webdriver.Edge()
@@ -93,9 +94,9 @@ def find_all_citations(paper_url):
             next_page_button.click()
         else:
             break
-
-    sleep(5)
     driver.close()
+    return papers_data
 
 if __name__ == "__main__":
-    find_all_citations('https://scholar.google.com/scholar?cites=18198394694373496650&as_sdt=5,29&sciodt=0,29&hl=zh-CN')
+    papers_citation_data = find_all_citations('https://scholar.google.com/scholar?cites=18198394694373496650&as_sdt=5,29&sciodt=0,29&hl=zh-CN')
+    print("finish")
