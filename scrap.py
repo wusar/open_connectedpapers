@@ -107,7 +107,7 @@ def search_paper_data(paper_name, reuqired_info="related"):
 
     # Locate and click the submit button
     submit_button = driver.find_element(By.ID, "gs_hdr_tsb")
-    sleep(random.randint(1, 3))
+    sleep(random.randint(3, 6))
 
     submit_button.click()
 
@@ -142,12 +142,12 @@ def search_paper_data(paper_name, reuqired_info="related"):
     if reuqired_info == "related":
         # 点击'相关文章'链接
         related_articles_link = driver.find_element(By.PARTIAL_LINK_TEXT, "相关文章")
-        sleep(random.randint(1, 3))
+        sleep(random.randint(3, 6))
         related_articles_link.click()
     elif reuqired_info == "cited":
         # 点击'被引用次数'链接
         cited_by_link = driver.find_element(By.PARTIAL_LINK_TEXT, "被引用次数")
-        sleep(random.randint(1, 3))
+        sleep(random.randint(3, 6))
         cited_by_link.click()
 
     # Extract data from up to 2 pages of search results
@@ -169,7 +169,7 @@ def search_paper_data(paper_name, reuqired_info="related"):
         except:
             next_page_button = None
         if next_page_button:
-            sleep(random.randint(1, 3))
+            sleep(random.randint(3, 6))
             next_page_button.click()
         else:
             break
@@ -182,20 +182,17 @@ def get_all_paper_data():
     # Get the root paper data and its site and related information
     root_paper_data_cited = search_paper_data("hello paper", reuqired_info="cited")
     root_paper_data_related = search_paper_data("hello paper", reuqired_info="related")
-    # Combine the root paper data and its related information
-    root_paper_data = {}
-    for key in root_paper_data_cited:
-        root_paper_data[key] = root_paper_data_cited[key]
-    for key in root_paper_data_related:
-        root_paper_data[key] = root_paper_data_related[key]
-    all_paper_data.append(root_paper_data)
+
+    all_paper_data.append(root_paper_data_cited)
+    all_paper_data.append(root_paper_data_related)
 
     # Get citation information for each related paper
-    for paper in root_paper_data["related_papers"]:
+    for paper in root_paper_data_related:
         related_paper_data = search_paper_data(
             paper["paper_title"], reuqired_info="cited"
         )
-        all_paper_data.append(related_paper_data)
+        if related_paper_data != {}:
+            all_paper_data.append(related_paper_data)
 
     # Save data in JSON format
     with open("papers_data.json", "w") as f:
@@ -212,7 +209,7 @@ def rgba_to_hex(rgba):
 # Function to visualize the citation graph
 def visualize():
     with open("papers_data.json", "r") as f:
-        papers_citation_data = json.load(f)
+        papers_data = json.load(f)
     from pyecharts import options as opts
     from pyecharts.charts import Graph
 
@@ -221,6 +218,9 @@ def visualize():
     edges = []
     cmap = plt.get_cmap("Blues")  # Use blue color map
 
+    papers_citation_data = papers_data
+    for paper in papers_citation_data:
+        print(paper)
     # Get the earliest and latest publication years
     min_year = min(int(paper["publication_year"]) for paper in papers_citation_data)
     max_year = max(int(paper["publication_year"]) for paper in papers_citation_data)
@@ -262,6 +262,6 @@ def visualize():
 
 # Main function
 if __name__ == "__main__":
-    papers_citation_data = get_all_paper_data()
+    # papers_citation_data = get_all_paper_data()
     driver.close()
     visualize()
