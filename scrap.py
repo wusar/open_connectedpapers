@@ -273,6 +273,6 @@ def visualize():
 
 # Main function
 if __name__ == "__main__":
-    papers_citation_data = get_all_paper_data()
+    # papers_citation_data = get_all_paper_data()
     driver.close()
     visualize()
