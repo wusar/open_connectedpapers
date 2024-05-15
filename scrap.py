@@ -103,10 +103,11 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
 
     # 输入要搜索的论文名称
     search_box.send_keys(paper_name)
-    sleep(random.randint(0, 2))
 
     # Locate and click the submit button
     submit_button = driver.find_element(By.ID, "gs_hdr_tsb")
+    sleep(random.randint(1, 3))
+
     submit_button.click()
 
     global first_time
@@ -140,10 +141,12 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
     if reuqired_info == "related":
         # 点击'相关文章'链接
         related_articles_link = driver.find_element(By.PARTIAL_LINK_TEXT, "相关文章")
+        sleep(random.randint(1, 3))
         related_articles_link.click()
     elif reuqired_info == "cited":
         # 点击'被引用次数'链接
         cited_by_link = driver.find_element(By.PARTIAL_LINK_TEXT, "被引用次数")
+        sleep(random.randint(1, 3))
         cited_by_link.click()
 
     # Extract data from up to 2 pages of search results
@@ -165,7 +168,7 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
         except:
             next_page_button = None
         if next_page_button:
-            sleep(random.randint(0, 2))
+            sleep(random.randint(1, 3))
             next_page_button.click()
         else:
             break
