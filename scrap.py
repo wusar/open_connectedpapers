@@ -17,7 +17,7 @@ import random
 logger = logging.getLogger(__name__)
 
 # The maximum number of pages to extract data from
-page_num = 2
+page_num = 1
 
 
 # Placeholder function to build the citation graph (to be implemented)
@@ -121,7 +121,9 @@ def search_paper_data(paper_name, reuqired_info="related"):
     soup = BeautifulSoup(allpaper_innerHTML, "lxml")
 
     try:
-        all_paper_elements = soup.find_all("div", class_="gs_r gs_or gs_scl")
+        all_paper_elements = soup.find_all(
+            "div", class_="gs_r gs_or gs_scl"
+        ) + soup.find_all("div", class_="gs_r gs_or gs_scl gs_fmar")
         if len(all_paper_elements) == 0:
             logger.info("No search results found")
             return {}
@@ -171,13 +173,16 @@ def search_paper_data(paper_name, reuqired_info="related"):
 
 # Function to get paper data and save it in JSON format
 def get_all_paper_data():
+    paper_search_name = "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
     all_paper_data = []
     # Get the root paper data and its site and related information
-    root_paper_data_cited = search_paper_data("hello paper", reuqired_info="cited")
-    root_paper_data_related = search_paper_data("hello paper", reuqired_info="related")
+    root_paper_data_cited = search_paper_data(paper_search_name, reuqired_info="cited")
+    root_paper_data_related = search_paper_data(
+        paper_search_name, reuqired_info="related"
+    )
 
+    # We only need the cited information of the root paper, the related information is used for the next step
     all_paper_data.append(root_paper_data_cited)
-    all_paper_data.append(root_paper_data_related)
 
     # Get citation information for each related paper
     for paper in root_paper_data_related["related_papers"]:
@@ -222,6 +227,8 @@ def visualize():
     min_year_num = mdates.date2num(datetime(min_year, 6, 30))
     max_year_num = mdates.date2num(datetime(max_year, 6, 30))
 
+    max_citation_count = max(paper["citation_count"] for paper in papers_citation_data)
+
     for paper in papers_citation_data:
         year_num = mdates.date2num(datetime(int(paper["publication_year"]), 6, 30))
         rgba_color = cmap(
@@ -232,15 +239,26 @@ def visualize():
         nodes.append(
             {
                 "name": paper["paper_title"],
-                "symbolSize": paper["citation_count"] / 10,
+                "symbolSize": paper["citation_count"] / max_citation_count * 100,
                 "itemStyle": {"color": hex_color},
             }
         )
-        if "citation_papers_data" in paper:
-            for citation in paper["citation_papers_data"]:
-                edges.append(
-                    {"source": citation["paper_title"], "target": paper["paper_title"]}
-                )
+    for paper in papers_citation_data:
+        if "cited_papers" in paper:
+            for citation in paper["cited_papers"]:
+                if citation is not None:
+                    if citation["paper_title"] in [
+                        paper["paper_title"] for paper in papers_citation_data
+                    ]:
+                        edges.append(
+                            {
+                                "source": citation["paper_title"],
+                                "target": paper["paper_title"],
+                            }
+                        )
+                        logging.info(
+                            f"Adding edge: {citation['paper_title']} -> {paper['paper_title']}"
+                        )
 
     # Create the graph
     graph = (

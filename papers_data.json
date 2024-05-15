@@ -1,1130 +1,973 @@
 [
     {
-        "related_papers": [
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/bfg/article-abstract/16/3/156/2555374",
-                "paper_title": "Goodbye genome paper, hello genome report: the increasing popularity of 'genome announcements' and their impact on science",
-                "publication_year": "2017",
-                "citation_count": 23
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/g3journal/article-abstract/13/12/jkad249/7444718",
-                "paper_title": "Genome reports: enhancing rigor, reproducibility, and relevance",
-                "publication_year": "2023",
-                "citation_count": null
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.embopress.org/doi/full/10.1038/sj.embor.7400412",
-                "paper_title": "Genome coverage, literally speaking: The challenge of annotating 200 genomes with 4 million publications",
-                "publication_year": "2005",
-                "citation_count": 43
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5850084/",
-                "paper_title": "Ten steps to get started in Genome Assembly and Annotation",
-                "publication_year": "2018",
-                "citation_count": 145
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.518644/full",
-                "paper_title": "GenomeChronicler: The personal genome project UK genomic report generator pipeline",
-                "publication_year": "2020",
-                "citation_count": 4
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://genome.cshlp.org/content/7/11/1038.short",
-                "paper_title": "Webwise: Navigating the human genome project",
-                "publication_year": "1997",
-                "citation_count": 10
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/nar/article-abstract/47/1/1/5281443",
-                "paper_title": "Preprints, citations and Nucleic Acids Research",
-                "publication_year": "2019",
-                "citation_count": 5
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.embopress.org/doi/abs/10.15252/embr.201745118",
-                "paper_title": "Don't just dump your data and run: Authors should submit as much experimental information as possible when uploading sequence data",
-                "publication_year": "2017",
-                "citation_count": 7
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/gm303",
-                "paper_title": "A year of great leaps in genome research",
-                "publication_year": "2012",
-                "citation_count": 7
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/bioinformatics/article-abstract/15/9/773/229495",
-                "paper_title": "Genomes OnLine Database (GOLD 1.0): a monitor of complete and ongoing genome projects world-wide.",
-                "publication_year": "1999",
-                "citation_count": 144
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://portlandpress.com/bioscirep/article-abstract/41/5/BSR20211016/228578",
-                "paper_title": "A new chapter for a better Bioscience Reports",
-                "publication_year": "2021",
-                "citation_count": 6
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/s13059-016-1040-y",
-                "paper_title": "Being open: our policy on source code",
-                "publication_year": "2016",
-                "citation_count": 6
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.science.org/doi/pdf/10.1126/science.281.5374.148",
-                "paper_title": "A planned boost for genome sequencing, but the plan is in flux",
-                "publication_year": "1998",
-                "citation_count": 10
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/s13059-019-1715-2",
-                "paper_title": "Next-generation genome annotation: we still struggle to get it right",
-                "publication_year": "2019",
-                "citation_count": 304
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.liebertpub.com/doi/abs/10.1089/omi.2008.A2B2",
-                "paper_title": "Toward a standards-compliant genomic and metagenomic publication record",
-                "publication_year": "2008",
-                "citation_count": 38
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/nar/article-abstract/46/D1/D1/4781210",
-                "paper_title": "The 2018 Nucleic Acids Research database issue and the online molecular biology database collection",
-                "publication_year": "2018",
-                "citation_count": 127
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://genome.cshlp.org/content/8/1/4.short",
-                "paper_title": "WebWise: Guide to The Sanger Center's Web Site",
-                "publication_year": "1998",
-                "citation_count": 6
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/gb-2002-3-10-comment2010",
-                "paper_title": "On the importance of being finished",
-                "publication_year": "2002",
-                "citation_count": 13
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.degruyter.com/document/doi/10.1515/9780822375449-008/pdf?licenseType=restricted",
-                "paper_title": "Valuing data in postgenomic biology",
-                "publication_year": "2015",
-                "citation_count": 6
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/gb-2001-3-1-comment1001",
-                "paper_title": "A christmas carol",
-                "publication_year": "2001",
-                "citation_count": 11
-            }
-        ],
-        "cited_papers": [],
-        "paper_url": "https://academic.oup.com/bfg/article-abstract/16/3/156/2555374",
-        "paper_title": "Goodbye genome paper, hello genome report: the increasing popularity of 'genome announcements' and their impact on science",
-        "publication_year": "2017",
-        "citation_count": 23
-    },
-    {},
-    {},
-    {},
-    {
         "related_papers": [],
         "cited_papers": [
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://academic.oup.com/bib/article-abstract/22/2/616/6024978",
-                "paper_title": "Next generation sequencing of SARS-CoV-2 genomes: challenges, applications and opportunities",
-                "publication_year": "2021",
-                "citation_count": 212
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S2001037019303277",
-                "paper_title": "Long walk to genomics: History and current approaches to genome sequencing and assembly",
-                "publication_year": "2020",
-                "citation_count": 271
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008325",
-                "paper_title": "Twelve quick steps for genome assembly and annotation in the classroom",
-                "publication_year": "2020",
-                "citation_count": 49
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1007/s10750-019-04111-1",
-                "paper_title": "Molluscan genomics: the road so far and the way forward",
-                "publication_year": "2020",
-                "citation_count": 71
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13312",
-                "paper_title": "The changing face of genome assemblies: Guidance on achieving high\u2010quality reference genomes",
-                "publication_year": "2021",
-                "citation_count": 47
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.nature.com/articles/s41596-019-0254-3",
-                "paper_title": "A workflow for generating multi-strain genome-scale metabolic models of prokaryotes",
-                "publication_year": "2020",
-                "citation_count": 62
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7607483/",
-                "paper_title": "First draft genome assembly of the desert locust, Schistocerca gregaria",
-                "publication_year": "2020",
-                "citation_count": 42
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/g3journal/article-abstract/11/5/jkab085/6178282",
-                "paper_title": "A high-quality, chromosome-level genome assembly of the Black Soldier Fly (Hermetia illucens L.)",
-                "publication_year": "2021",
-                "citation_count": 41
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13202",
-                "paper_title": "bitacora: A comprehensive tool for the identification and annotation of gene families in genome assemblies",
-                "publication_year": "2020",
-                "citation_count": 51
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/gigascience/article-abstract/10/1/giaa140/6092773",
-                "paper_title": "Streamlining data-intensive biology with workflow systems",
-                "publication_year": "2021",
-                "citation_count": 38
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/s12859-021-04120-9",
-                "paper_title": "FINDER: an automated software package to annotate eukaryotic genes from RNA-Seq data and associated protein sequences",
-                "publication_year": "2021",
-                "citation_count": 28
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13952",
-                "paper_title": "Plant mitochondrial genome map (PMGmap): A software tool for the comprehensive visualization of coding, noncoding and genome features of plant mitochondrial\u00a0\u2026",
+                "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/525d24400247f884c3419b0b7b1c4829-Abstract-Conference.html",
+                "paper_title": "Segment anything in 3d with nerfs",
                 "publication_year": "2023",
-                "citation_count": 5
+                "citation_count": 61
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://academic.oup.com/gbe/article-abstract/12/4/309/5803651",
-                "paper_title": "What Is in Umbilicaria pustulata? A Metagenomic Approach to Reconstruct the Holo-Genome of a Lichen",
-                "publication_year": "2020",
-                "citation_count": 36
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/s12915-023-01539-9",
-                "paper_title": "Genomic profiling of dioecious Amaranthus species provides novel insights into species relatedness and sex genes",
+                "paper_url": "https://arxiv.org/abs/2308.09713",
+                "paper_title": "Dynamic 3d gaussians: Tracking by persistent dynamic view synthesis",
                 "publication_year": "2023",
-                "citation_count": 7
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008104",
-                "paper_title": "Regional sequence expansion or collapse in heterozygous genome assemblies",
-                "publication_year": "2020",
-                "citation_count": 29
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S0888754319300588",
-                "paper_title": "Highly accurate-single chromosomal complete genomes using IonTorrent and MinION sequencing of clinical pathogens",
-                "publication_year": "2020",
-                "citation_count": 41
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6558",
-                "paper_title": "DNA degradation in fish: Practical solutions and guidelines to improve DNA preservation for genomic research",
-                "publication_year": "2020",
-                "citation_count": 25
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.mdpi.com/2075-1729/10/12/356",
-                "paper_title": "An overview of genomics, phylogenomics and proteomics approaches in Ascomycota",
-                "publication_year": "2020",
-                "citation_count": 23
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.01049",
-                "paper_title": "A core genome multilocus sequence typing scheme for Pseudomonas aeruginosa",
-                "publication_year": "2020",
-                "citation_count": 25
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1007/s00338-021-02072-3",
-                "paper_title": "Application of phylogenomic tools to unravel anthozoan evolution",
-                "publication_year": "2022",
-                "citation_count": 19
-            }
-        ],
-        "paper_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5850084/",
-        "paper_title": "Ten steps to get started in Genome Assembly and Annotation",
-        "publication_year": "2018",
-        "citation_count": 145
-    },
-    {},
-    {},
-    {},
-    {
-        "related_papers": [],
-        "cited_papers": [
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.837685/full",
-                "paper_title": "Co-cultivation, co-culture, mixed culture, and microbial consortium of fungi: an understudied strategy for biomass conversion",
-                "publication_year": "2022",
-                "citation_count": 16
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.nature.com/articles/s42003-020-01204-9",
-                "paper_title": "The archives are half-empty: an assessment of the availability of microbial community sequencing data",
-                "publication_year": "2020",
-                "citation_count": 29
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S1754504822000733",
-                "paper_title": "In silico environmental sampling of emerging fungal pathogens via big data analysis",
-                "publication_year": "2023",
-                "citation_count": 5
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/jambio/article-pdf/doi/10.1093/jambio/lxac055/49095044/lxac055.pdf",
-                "paper_title": "Big data in genomic research for big questions with examples from covid-19 and other zoonoses",
-                "publication_year": "2023",
-                "citation_count": null
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1186/s12864-022-08352-8",
-                "paper_title": "Protocol variations in run-on transcription dataset preparation produce detectable signatures in sequencing libraries",
-                "publication_year": "2022",
-                "citation_count": 6
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://journals.sagepub.com/doi/abs/10.1177/1179069518756296",
-                "paper_title": "Improving reproducibility and candidate selection in transcriptomics using meta-analysis",
-                "publication_year": "2018",
-                "citation_count": 10
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://apps.dtic.mil/sti/trecms/pdf/AD1212246.pdf",
-                "paper_title": "High throughput sequencing and discovery of novel bat viruses: insights for biosurveillance in an important virus reservoir",
-                "publication_year": "2020",
-                "citation_count": null
-            }
-        ],
-        "paper_url": "https://www.embopress.org/doi/abs/10.15252/embr.201745118",
-        "paper_title": "Don't just dump your data and run: Authors should submit as much experimental information as possible when uploading sequence data",
-        "publication_year": "2017",
-        "citation_count": 7
-    },
-    {},
-    {},
-    {},
-    {
-        "related_papers": [],
-        "cited_papers": [
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/7332476/",
-                "paper_title": "What are the characteristics of high-rated apps? a case study on free android applications",
-                "publication_year": "2015",
-                "citation_count": 230
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/4814968/",
-                "paper_title": "What do we know about knowledge management? Practical implications for software engineering",
-                "publication_year": "2009",
-                "citation_count": 89
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/4400153/",
-                "paper_title": "Do code and comments co-evolve? on the relation between source code and comment changes",
-                "publication_year": "2007",
-                "citation_count": 293
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/7503707/",
-                "paper_title": "Improving code readability models with textual features",
-                "publication_year": "2016",
-                "citation_count": 140
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.1958",
-                "paper_title": "A comprehensive model for code readability",
-                "publication_year": "2018",
-                "citation_count": 106
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/6226000/",
-                "paper_title": "Estimating the size, cost, and types of technical debt",
-                "publication_year": "2012",
-                "citation_count": 161
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/6336724/",
-                "paper_title": "Estimating the principal of an application's technical debt",
-                "publication_year": "2012",
-                "citation_count": 152
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S1877750311000111",
-                "paper_title": "WaLBerla: HPC software design for computational engineering simulations",
-                "publication_year": "2011",
-                "citation_count": 156
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/7551989/",
-                "paper_title": "Jred: Program customization and bloatware mitigation based on static analysis",
-                "publication_year": "2016",
-                "citation_count": 86
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1007/s11219-020-09509-y",
-                "paper_title": "Data-driven and tool-supported elicitation of quality requirements in agile companies",
-                "publication_year": "2020",
-                "citation_count": 40
-            },
-            null,
-            null,
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S0164121211002512",
-                "paper_title": "Organizational adoption of open source software",
-                "publication_year": "2012",
-                "citation_count": 112
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.nowpublishers.com/article/Details/TOM-026",
-                "paper_title": "Open source software: A survey from 10,000 feet",
-                "publication_year": "2011",
-                "citation_count": 103
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S1571066109000632",
-                "paper_title": "Evaluating the quality of open source software",
-                "publication_year": "2009",
-                "citation_count": 117
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/4384502/",
-                "paper_title": "Architectural risk analysis of software systems based on security patterns",
-                "publication_year": "2008",
-                "citation_count": 126
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1007/s11219-009-9075-x",
-                "paper_title": "Analyzing the co-evolution of comments and source code",
-                "publication_year": "2009",
-                "citation_count": 100
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S0167642320301246",
-                "paper_title": "Understanding stack overflow code quality: A recommendation of caution",
-                "publication_year": "2020",
-                "citation_count": 27
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://arxiv.org/abs/1007.5117",
-                "paper_title": "Code quality evaluation methodology using the ISO/IEC 9126 standard",
-                "publication_year": "2010",
-                "citation_count": 92
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://ieeexplore.ieee.org/abstract/document/4362893/",
-                "paper_title": "Keynote address:. ql for source code analysis",
-                "publication_year": "2007",
-                "citation_count": 102
-            }
-        ],
-        "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=vEN-ckcdtCwC&oi=fnd&pg=PA1&dq=Being+open:+our+policy+on+source+code&ots=sK0oe72PpK&sig=XaEAFhkPxR4-nmgjb76dWGPTp5g",
-        "paper_title": "Code quality: the open source perspective",
-        "publication_year": "2006",
-        "citation_count": 204
-    },
-    {},
-    {},
-    {},
-    {
-        "related_papers": [],
-        "cited_papers": [
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201909987",
-                "paper_title": "Autonomous discovery in the chemical sciences part I: Progress",
-                "publication_year": "2020",
-                "citation_count": 283
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201909989",
-                "paper_title": "Autonomous discovery in the chemical sciences part II: outlook",
-                "publication_year": "2020",
-                "citation_count": 212
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/database/article-abstract/doi/10.1093/databa/baaa022/5828001",
-                "paper_title": "Why data citation isn't working, and what to do about it",
-                "publication_year": "2020",
-                "citation_count": 220
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/nar/article-abstract/47/D1/D614/5146204",
-                "paper_title": "The Virtual Metabolic Human database: integrating human and gut microbiome metabolism with nutrition and disease",
-                "publication_year": "2019",
-                "citation_count": 310
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/biot.201800613",
-                "paper_title": "Biotechnology, big data and artificial intelligence",
-                "publication_year": "2019",
-                "citation_count": 125
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/bib/article-abstract/22/2/1656/5735620",
-                "paper_title": "Exploration of databases and methods supporting drug repurposing: a comprehensive survey",
-                "publication_year": "2021",
-                "citation_count": 95
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ctm2.28",
-                "paper_title": "Human gene and disease associations for clinical\u2010genomics and precision medicine research",
-                "publication_year": "2020",
-                "citation_count": 83
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=bQgxEAAAQBAJ&oi=fnd&pg=PR8&ots=Ty5z_M6Rmt&sig=12ezMIVaB9ROcMcENVZZTIm4Wp4",
-                "paper_title": "Biomedical informatics: computer applications in health care and biomedicine",
-                "publication_year": "2021",
-                "citation_count": 126
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/mbe/article-abstract/36/4/861/5303840",
-                "paper_title": "OrthoMaM v10: scaling-up orthologous coding sequence and exon alignments with more than one hundred mammalian genomes",
-                "publication_year": "2019",
-                "citation_count": 77
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.annualreviews.org/doi/abs/10.1146/annurev-biodatasci-010820-091627",
-                "paper_title": "Knowledge-based biomedical data science",
-                "publication_year": "2020",
-                "citation_count": 54
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/database/article-abstract/doi/10.1093/database/bay088/5096675",
-                "paper_title": "AgBioData consortium recommendations for sustainable genomics and genetics databases for agriculture",
-                "publication_year": "2018",
-                "citation_count": 76
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://pubs.acs.org/doi/abs/10.1021/acs.jmedchem.9b01989",
-                "paper_title": "Drug research meets network science: where are we?",
-                "publication_year": "2020",
-                "citation_count": 39
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.science.org/doi/abs/10.1126/sciadv.abn3986",
-                "paper_title": "A SOX2-engineered epigenetic silencer factor represses the glioblastoma genetic program and restrains tumor development",
-                "publication_year": "2022",
-                "citation_count": 9
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.nature.com/articles/s41467-019-13687-0",
-                "paper_title": "Dual-initiation promoters with intertwined canonical and TCT/TOP transcription start sites diversify transcript processing",
-                "publication_year": "2020",
-                "citation_count": 43
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.annualreviews.org/doi/abs/10.1146/annurev-biodatasci-072018-021229",
-                "paper_title": "Genomic data compression",
-                "publication_year": "2019",
-                "citation_count": 50
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/database/article-abstract/doi/10.1093/database/baz106/5614223",
-                "paper_title": "Enabling semantic queries across federated bioinformatics databases",
-                "publication_year": "2019",
-                "citation_count": 47
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/bib/article-abstract/22/1/30/5851265",
-                "paper_title": "The road towards data integration in human genomics: players, steps and interactions",
-                "publication_year": "2021",
-                "citation_count": 29
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/minf.201900016",
-                "paper_title": "PubChem and CHEMBL beyond Lipinski",
-                "publication_year": "2019",
-                "citation_count": 42
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.cell.com/cell-reports/pdf/S2211-1247(20)30035-8.pdf",
-                "paper_title": "Transcriptional correlates of tolerance and lethality in mice predict Ebola virus disease patient outcomes",
-                "publication_year": "2020",
-                "citation_count": 36
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.tandfonline.com/doi/abs/10.1080/17460441.2021.1918098",
-                "paper_title": "Machine learning techniques applied to the drug design and discovery of new antivirals: a brief look over the past decade",
-                "publication_year": "2021",
-                "citation_count": 16
-            }
-        ],
-        "paper_url": "https://academic.oup.com/nar/article-abstract/46/D1/D1/4781210",
-        "paper_title": "The 2018 Nucleic Acids Research database issue and the online molecular biology database collection",
-        "publication_year": "2018",
-        "citation_count": 127
-    },
-    {
-        "related_papers": [],
-        "cited_papers": [
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.ingentaconnect.com/content/ben/cbio/2011/00000006/00000001/art00011",
-                "paper_title": "Bioinformatics analysis of functional relations between CNPs regions",
-                "publication_year": "2011",
-                "citation_count": 22
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://pubs.rsc.org/en/content/articlehtml/2011/mb/c1mb05069a",
-                "paper_title": "MISS-Prot: web server for self/non-self discrimination of protein residue networks in parasites; theory and experiments in Fasciola peptides and Anisakis allergens",
-                "publication_year": "2011",
-                "citation_count": 30
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.biopolymers.org.ua/content/uk/20/1/078/",
-                "paper_title": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u0430 \u0431\u0456\u043e\u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0430 \u0432 \u043f\u043e\u0441\u0442\u0433\u0435\u043d\u043e\u043c\u043d\u0443 \u0435\u0440\u0443",
-                "publication_year": "2004",
-                "citation_count": 5
-            },
-            null,
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "http://www.biopolymers.org.ua/content/20/1/078/",
-                "paper_title": "Structural bioinformatics in post-genomic era",
-                "publication_year": "2004",
-                "citation_count": 1
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://elibrary.ru/item.asp?id=12925124",
-                "paper_title": "\u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u0430\u044f \u0431\u0438\u043e\u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0430 \u0432 \u043f\u043e\u0441\u0442\u0433\u0435\u043d\u043e\u043c\u043d\u0443\u044e \u044d\u0440\u0443",
-                "publication_year": "2004",
-                "citation_count": null
-            }
-        ],
-        "paper_url": "https://genome.cshlp.org/content/8/1/4.short",
-        "paper_title": "WebWise: Guide to The Sanger Center's Web Site",
-        "publication_year": "1998",
-        "citation_count": 6
-    },
-    {},
-    {
-        "related_papers": [],
-        "cited_papers": [
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://journals.sagepub.com/doi/abs/10.1177/2053951714534395",
-                "paper_title": "What difference does quantity make? On the epistemology of Big Data in biology",
-                "publication_year": "2014",
-                "citation_count": 348
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.degruyter.com/document/doi/10.7208/9780226416502/html",
-                "paper_title": "Data-centric biology: A philosophical study",
-                "publication_year": "2019",
-                "citation_count": 675
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.cambridge.org/core/elements/model-organisms/F895B26EAC0373BCA5A138835AC73AEA",
-                "paper_title": "Model organisms",
-                "publication_year": "2020",
-                "citation_count": 95
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://academic.oup.com/gigascience/article-abstract/5/1/s13742-016-0126-5/2720982",
-                "paper_title": "Introducing BASE: the Biomes of Australian Soil Environments soil microbial diversity database",
-                "publication_year": "2016",
-                "citation_count": 219
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.taylorfrancis.com/books/mono/10.4324/9781315169583/impressionable-biologies-maurizio-meloni",
-                "paper_title": "Impressionable biologies: From the archaeology of plasticity to the sociology of epigenetics",
-                "publication_year": "2019",
-                "citation_count": 120
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://journals.sagepub.com/doi/abs/10.1177/0270467616668760",
-                "paper_title": "How do scientists define openness? Exploring the relationship between open science policies and research practice",
-                "publication_year": "2016",
-                "citation_count": 147
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1007/s10739-018-9538-7",
-                "paper_title": "The Bermuda Triangle: The pragmatics, policies, and principles for data sharing in the history of the human genome project",
-                "publication_year": "2018",
-                "citation_count": 83
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://journals.sagepub.com/doi/abs/10.1177/0162243916672071",
-                "paper_title": "How does one \u201copen\u201d science? Questions of value in biological research",
-                "publication_year": "2017",
-                "citation_count": 96
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.annualreviews.org/doi/abs/10.1146/annurev-genom-083115-022515",
-                "paper_title": "Sharing data to build a medical information commons: from Bermuda to the Global Alliance",
-                "publication_year": "2017",
-                "citation_count": 29
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.sciencedirect.com/science/article/pii/S1471772716300653",
-                "paper_title": "Till data do us part: Understanding data-based value creation in data-intensive infrastructures",
-                "publication_year": "2017",
-                "citation_count": 74
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://par.nsf.gov/servlets/purl/10111085",
-                "paper_title": "Data donation as a model for citizen science health research",
-                "publication_year": "2019",
-                "citation_count": 63
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://account.datascience.codata.org/index.php/up-j-dsj/article/view/dsj-2017-032",
-                "paper_title": "Global data quality assessment and the situated nature of \u201cbest\u201d research practices in biology",
-                "publication_year": "2017",
-                "citation_count": 39
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.frontiersin.org/articles/10.3389/fmed.2023.1141685/full",
-                "paper_title": "The application of data altruism in clinical research through empirical and legal analysis lenses",
-                "publication_year": "2023",
-                "citation_count": 4
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://plato.stanford.edu/Entries/systems-synthetic-biology/",
-                "paper_title": "Philosophy of systems and synthetic biology",
-                "publication_year": "2017",
-                "citation_count": 34
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1007/s11019-020-09960-5",
-                "paper_title": "Openness and trust in data-intensive science: the case of biocuration",
-                "publication_year": "2020",
-                "citation_count": 12
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.tandfonline.com/doi/abs/10.1080/09505431.2023.2260830",
-                "paper_title": "Gendering data care: curators, care, and computers in data-centric biology",
-                "publication_year": "2023",
-                "citation_count": 1
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://plato.stanford.edu/ENTRIES/genomics/",
-                "paper_title": "Genomics and postgenomics",
-                "publication_year": "2016",
-                "citation_count": 20
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.embopress.org/doi/abs/10.15252/embr.202050690",
-                "paper_title": "Data sharing platforms and the academic evaluation system",
-                "publication_year": "2020",
-                "citation_count": 9
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.tandfonline.com/doi/abs/10.1080/08109028.2017.1325142",
-                "paper_title": "Data sharing in low-resourced research environments",
-                "publication_year": "2016",
-                "citation_count": 18
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://search.proquest.com/openview/6b80cd0d55a93e62be1e11a8ba8cb3a6/1?pq-origsite=gscholar&cbl=18750&diss=y",
-                "paper_title": "Research data management practices and impacts on long-term data sustainability: an institutional exploration",
-                "publication_year": "2022",
-                "citation_count": 4
-            }
-        ],
-        "paper_url": "https://www.academia.edu/download/33462019/PostGenomics_AnkenyLeonelli_2014.pdf",
-        "paper_title": "Valuing data in postgenomic biology: How data donation and curation practices challenge the scientific publication system",
-        "publication_year": "2015",
-        "citation_count": 35
-    },
-    {
-        "related_papers": [],
-        "cited_papers": [
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=Ex0AEAAAQBAJ&oi=fnd&pg=PR7&ots=XSw2B1796Q&sig=ZNESxSWCBRPlkqyXtOBoWm4gMN8",
-                "paper_title": "Film adaptation and its discontents: from Gone with the Wind to The Passion of the Christ",
-                "publication_year": "2007",
-                "citation_count": 1111
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=JPWwm_k8eLMC&oi=fnd&pg=PP11&ots=qOQJO7YaK6&sig=csQNHCIYX-2DJgJbYDqaTADj2Ws",
-                "paper_title": "The politics of writing in Iran: A history of modern Persian literature",
-                "publication_year": "2000",
-                "citation_count": 195
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://link.springer.com/article/10.1007/s10619-009-7050-y",
-                "paper_title": "Semantics and evaluation of top-k queries in\u00a0probabilistic databases",
-                "publication_year": "2009",
-                "citation_count": 165
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://kb.osu.edu/bitstream/handle/1811/44679/1/Wagner_Book4CD.pdf",
-                "paper_title": "Financial Speculation in Victorian Fiction: Plotting Money and the Novel Genre, 1815-1901",
-                "publication_year": "2010",
-                "citation_count": 113
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9781315844183&type=googlepdf",
-                "paper_title": "Charles Dickens",
-                "publication_year": "2014",
                 "citation_count": 114
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=kvemaZIZZuUC&oi=fnd&pg=PP1&ots=6ybeEXLf_s&sig=pXWmxOUZ8QisRQCw0uy6vIpJfsw",
-                "paper_title": "Russian Modernism: The Transfiguration of the Everyday",
-                "publication_year": "1997",
-                "citation_count": 87
+                "paper_url": "https://arxiv.org/abs/2310.08528",
+                "paper_title": "4d gaussian splatting for real-time dynamic scene rendering",
+                "publication_year": "2023",
+                "citation_count": 119
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://www.taylorfrancis.com/books/mono/10.4324/9781315237169/scriptures-charles-dickens-vincent-newey",
-                "paper_title": "The Scriptures of Charles Dickens: Novels of Ideology, Novels of the Self",
-                "publication_year": "2016",
-                "citation_count": 77
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=TuZe1EIcQ5AC&oi=fnd&pg=PR7&ots=BTCnkRonpS&sig=nrB65C_aW9-lxO6qjkV3264UMxM",
-                "paper_title": "Better left unsaid: Victorian Novels, Hays Code Films, and the benefits of censorship",
-                "publication_year": "2013",
-                "citation_count": 48
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.taylorfrancis.com/books/mono/10.4324/9781315023960/social-dreaming-elaine-ostry",
-                "paper_title": "Social Dreaming: Dickens and the Fairy Tale",
-                "publication_year": "2013",
-                "citation_count": 67
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.jstor.org/stable/44372091",
-                "paper_title": "Tiny Tim, Blind Bertha, and the Resistance of Miss Mowcher: Charles Dickens and the Uses of Disability",
-                "publication_year": "2004",
-                "citation_count": 49
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=GuaqBgAAQBAJ&oi=fnd&pg=PR4&ots=yjlnXMLBmf&sig=cGHM7xFdys-Ern0H9Ur4AeO8FCk",
-                "paper_title": "Philanthropy in British and American Fiction: Dickens, Hawthorne, Eliot and Howells",
-                "publication_year": "2007",
-                "citation_count": 52
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.jstor.org/stable/30219643",
-                "paper_title": "\" Anti-bleak house\": Advertising and the Victorian novel",
-                "publication_year": "2006",
-                "citation_count": 46
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=wPe7uCbGvPUC&oi=fnd&pg=PA167&ots=zwehUUYqF7&sig=xYk4uQqv7b9T0AMmCrnV5RcDhf4",
-                "paper_title": "Dickens and illustration",
-                "publication_year": "2001",
-                "citation_count": 41
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://www.manchesterhive.com/display/9781526151971/9781526151971.xml",
-                "paper_title": "The Victorian aquarium: Literary discussions on nature, culture and science",
-                "publication_year": "2021",
-                "citation_count": 6
-            },
-            {
-                "related_papers": [],
-                "cited_papers": [],
-                "paper_url": "https://docs.lib.purdue.edu/clcweb/vol13/iss4/10/",
-                "paper_title": "About the human condition in the works of Dickens and Marx",
-                "publication_year": "2011",
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Chen_NeuRBF_A_Neural_Fields_Representation_with_Adaptive_Radial_Basis_Functions_ICCV_2023_paper.html",
+                "paper_title": "Neurbf: A neural fields representation with adaptive radial basis functions",
+                "publication_year": "2023",
                 "citation_count": 22
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://www.taylorfrancis.com/books/mono/10.4324/9780367508661/dickens-bible-jennifer-gribble",
-                "paper_title": "Dickens and the Bible:'what Providence Meant'",
-                "publication_year": "2020",
-                "citation_count": 7
+                "paper_url": "https://arxiv.org/abs/2310.08529",
+                "paper_title": "Gaussiandreamer: Fast generation from text to 3d gaussian splatting with point cloud priors",
+                "publication_year": "2023",
+                "citation_count": 62
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://www.taylorfrancis.com/books/mono/10.4324/9780203959176/ready-trample-human-law-paul-jarvie",
-                "paper_title": "Ready to Trample on all Human Law: Finance Capitalism in the Fiction of Charles Dickens",
-                "publication_year": "2014",
-                "citation_count": 25
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Prokudin_Dynamic_Point_Fields_ICCV_2023_paper.html",
+                "paper_title": "Dynamic point fields",
+                "publication_year": "2023",
+                "citation_count": 9
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://www.cambridge.org/core/journals/victorian-literature-and-culture/article/eternal-returns-a-christmas-carols-ghosts-of-repetition/587C67E0FE3450B2BB6424322A5F04BD",
-                "paper_title": "Eternal Returns: A Christmas Carol's Ghosts of Repetition",
-                "publication_year": "2015",
+                "paper_url": "https://arxiv.org/abs/2309.13101",
+                "paper_title": "Deformable 3d gaussians for high-fidelity monocular dynamic scene reconstruction",
+                "publication_year": "2023",
+                "citation_count": 72
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2310.10642",
+                "paper_title": "Real-time photorealistic dynamic scene representation and rendering with 4d gaussian splatting",
+                "publication_year": "2310",
+                "citation_count": 41
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Yi_Canonical_Factors_for_Hybrid_Neural_Fields_ICCV_2023_paper.html",
+                "paper_title": "Canonical factors for hybrid neural fields",
+                "publication_year": "2023",
+                "citation_count": 6
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Zheng_EditableNeRF_Editing_Topologically_Varying_Neural_Radiance_Fields_by_Key_Points_CVPR_2023_paper.html",
+                "paper_title": "Editablenerf: Editing topologically varying neural radiance fields by key points",
+                "publication_year": "2023",
+                "citation_count": 16
+            }
+        ],
+        "paper_url": "https://sgvr.kaist.ac.kr/~sungeui/ICG/Students/%5BCS482%5D%203D%20Gaussian%20Splatting%20for%20Real-Time%20Radiance%20Field%20Rendering.pdf",
+        "paper_title": "3d gaussian splatting for real-time radiance field rendering",
+        "publication_year": "2023",
+        "citation_count": 628
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/525d24400247f884c3419b0b7b1c4829-Abstract-Conference.html",
+                "paper_title": "Segment anything in 3d with nerfs",
+                "publication_year": "2023",
+                "citation_count": 61
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2308.09713",
+                "paper_title": "Dynamic 3d gaussians: Tracking by persistent dynamic view synthesis",
+                "publication_year": "2023",
+                "citation_count": 114
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2310.08528",
+                "paper_title": "4d gaussian splatting for real-time dynamic scene rendering",
+                "publication_year": "2023",
+                "citation_count": 119
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Chen_NeuRBF_A_Neural_Fields_Representation_with_Adaptive_Radial_Basis_Functions_ICCV_2023_paper.html",
+                "paper_title": "Neurbf: A neural fields representation with adaptive radial basis functions",
+                "publication_year": "2023",
+                "citation_count": 22
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2310.08529",
+                "paper_title": "Gaussiandreamer: Fast generation from text to 3d gaussian splatting with point cloud priors",
+                "publication_year": "2023",
+                "citation_count": 62
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Prokudin_Dynamic_Point_Fields_ICCV_2023_paper.html",
+                "paper_title": "Dynamic point fields",
+                "publication_year": "2023",
+                "citation_count": 9
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2309.13101",
+                "paper_title": "Deformable 3d gaussians for high-fidelity monocular dynamic scene reconstruction",
+                "publication_year": "2023",
+                "citation_count": 72
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2310.10642",
+                "paper_title": "Real-time photorealistic dynamic scene representation and rendering with 4d gaussian splatting",
+                "publication_year": "2310",
+                "citation_count": 41
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Yi_Canonical_Factors_for_Hybrid_Neural_Fields_ICCV_2023_paper.html",
+                "paper_title": "Canonical factors for hybrid neural fields",
+                "publication_year": "2023",
+                "citation_count": 6
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Zheng_EditableNeRF_Editing_Topologically_Varying_Neural_Radiance_Fields_by_Key_Points_CVPR_2023_paper.html",
+                "paper_title": "Editablenerf: Editing topologically varying neural radiance fields by key points",
+                "publication_year": "2023",
+                "citation_count": 16
+            }
+        ],
+        "paper_url": "https://sgvr.kaist.ac.kr/~sungeui/ICG/Students/%5BCS482%5D%203D%20Gaussian%20Splatting%20for%20Real-Time%20Radiance%20Field%20Rendering.pdf",
+        "paper_title": "3d gaussian splatting for real-time radiance field rendering",
+        "publication_year": "2023",
+        "citation_count": 628
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/c47ec10bc135be5c3663ba344d29a6a5-Abstract-Conference.html",
+                "paper_title": "ReTR: Modeling Rendering Via Transformer for Generalizable Neural Surface Reconstruction",
+                "publication_year": "2024",
+                "citation_count": 1
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2305.18832",
+                "paper_title": "Rethinking rendering in generalizable neural surface reconstruction: A learning-based solution",
+                "publication_year": "2305",
+                "citation_count": 2
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2403.11789",
+                "paper_title": "EMIE-MAP: Large-Scale Road Surface Reconstruction Based on Explicit Mesh and Implicit Encoding",
+                "publication_year": "2024",
+                "citation_count": 1
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://openaccess.thecvf.com/content/WACV2024/html/Chang_Fast_Sun-Aligned_Outdoor_Scene_Relighting_Based_on_TensoRF_WACV_2024_paper.html",
+                "paper_title": "Fast Sun-aligned Outdoor Scene Relighting based on TensoRF",
+                "publication_year": "2024",
+                "citation_count": 1
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2404.00714",
+                "paper_title": "Neural Radiance Field-based Visual Rendering: A Comprehensive Review",
+                "publication_year": "2024",
+                "citation_count": null
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-43153-1_9",
+                "paper_title": "CarPatch: A Synthetic Benchmark for\u00a0Radiance Field Evaluation on\u00a0Vehicle Components",
+                "publication_year": "2023",
+                "citation_count": 1
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://ieeexplore.ieee.org/abstract/document/10375755/",
+                "paper_title": "Reconstruction of Neural Radiance Fields With Vivid Scenes in the Metaverse",
+                "publication_year": "2023",
+                "citation_count": null
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://ieeexplore.ieee.org/abstract/document/10428424/",
+                "paper_title": "Geometric-Aware Facial Landmark Emotion Recognition",
+                "publication_year": "2023",
+                "citation_count": null
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://ieeexplore.ieee.org/abstract/document/10451523/",
+                "paper_title": "Jump-NERF: An Approach to Removing Glare and Pseudo Shadows Caused by Glass in Architectural Spaces",
+                "publication_year": "2023",
+                "citation_count": null
+            }
+        ],
+        "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Tang_ABLE-NeRF_Attention-Based_Rendering_With_Learnable_Embeddings_for_Neural_Radiance_Field_CVPR_2023_paper.html",
+        "paper_title": "ABLE-NeRF: attention-based rendering with learnable embeddings for neural radiance field",
+        "publication_year": "2023",
+        "citation_count": 9
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2210.00379",
+                "paper_title": "Nerf: Neural radiance field in 3d vision, a comprehensive review",
+                "publication_year": "2210",
+                "citation_count": 107
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Deitke_Objaverse_A_Universe_of_Annotated_3D_Objects_CVPR_2023_paper.html",
+                "paper_title": "Objaverse: A universe of annotated 3d objects",
+                "publication_year": "2023",
+                "citation_count": 316
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Wang_F2-NeRF_Fast_Neural_Radiance_Field_Training_With_Free_Camera_Trajectories_CVPR_2023_paper.html",
+                "paper_title": "F2-nerf: Fast neural radiance field training with free camera trajectories",
+                "publication_year": "2023",
+                "citation_count": 63
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Turki_SUDS_Scalable_Urban_Dynamic_Scenes_CVPR_2023_paper.html",
+                "paper_title": "Suds: Scalable urban dynamic scenes",
+                "publication_year": "2023",
+                "citation_count": 60
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Meuleman_Progressively_Optimized_Local_Radiance_Fields_for_Robust_View_Synthesis_CVPR_2023_paper.html",
+                "paper_title": "Progressively optimized local radiance fields for robust view synthesis",
+                "publication_year": "2023",
+                "citation_count": 45
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Wang_Neural_Fields_Meet_Explicit_Geometric_Representations_for_Inverse_Rendering_of_CVPR_2023_paper.html",
+                "paper_title": "Neural fields meet explicit geometric representations for inverse rendering of urban scenes",
+                "publication_year": "2023",
+                "citation_count": 39
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Xu_Grid-Guided_Neural_Radiance_Fields_for_Large_Urban_Scenes_CVPR_2023_paper.html",
+                "paper_title": "Grid-guided neural radiance fields for large urban scenes",
+                "publication_year": "2023",
+                "citation_count": 36
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Xu_DisCoScene_Spatially_Disentangled_Generative_Radiance_Fields_for_Controllable_3D-Aware_Scene_CVPR_2023_paper.html",
+                "paper_title": "Discoscene: Spatially disentangled generative radiance fields for controllable 3d-aware scene synthesis",
+                "publication_year": "2023",
+                "citation_count": 42
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://ieeexplore.ieee.org/abstract/document/10160782/",
+                "paper_title": "Loc-nerf: Monte carlo localization using neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 68
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://www.nowpublishers.com/article/OpenAccessDownload/SIP-2022-0062",
+                "paper_title": "Deep review and analysis of recent nerfs",
+                "publication_year": "2023",
+                "citation_count": 14
+            }
+        ],
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-19824-3_7",
+        "paper_title": "Bungeenerf: Progressive neural radiance field for extreme multi-scale scene rendering",
+        "publication_year": "2022",
+        "citation_count": 145
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Li_NerfAcc_Efficient_Sampling_Accelerates_NeRFs_ICCV_2023_paper.html",
+                "paper_title": "Nerfacc: Efficient sampling accelerates nerfs",
+                "publication_year": "2023",
+                "citation_count": 42
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3588432.3591536",
+                "paper_title": "Bakedsdf: Meshing neural sdfs for real-time view synthesis",
+                "publication_year": "2023",
+                "citation_count": 77
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Tang_Delicate_Textured_Mesh_Recovery_from_NeRF_via_Adaptive_Surface_Refinement_ICCV_2023_paper.html",
+                "paper_title": "Delicate textured mesh recovery from nerf via adaptive surface refinement",
+                "publication_year": "2023",
+                "citation_count": 49
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Mirzaei_Reference-guided_Controllable_Inpainting_of_Neural_Radiance_Fields_ICCV_2023_paper.html",
+                "paper_title": "Reference-guided controllable inpainting of neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 16
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Kulhanek_Tetra-NeRF_Representing_Neural_Radiance_Fields_Using_Tetrahedra_ICCV_2023_paper.html",
+                "paper_title": "Tetra-nerf: Representing neural radiance fields using tetrahedra",
+                "publication_year": "2023",
+                "citation_count": 19
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2309.16585",
+                "paper_title": "Text-to-3d using gaussian splatting",
+                "publication_year": "2309",
+                "citation_count": 62
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Yi_Canonical_Factors_for_Hybrid_Neural_Fields_ICCV_2023_paper.html",
+                "paper_title": "Canonical factors for hybrid neural fields",
+                "publication_year": "2023",
+                "citation_count": 6
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2304.12294",
+                "paper_title": "Explicit correspondence matching for generalizable neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 17
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_Coordinate_Quantized_Neural_Implicit_Representations_for_Multi-view_Reconstruction_ICCV_2023_paper.html",
+                "paper_title": "Coordinate quantized neural implicit representations for multi-view reconstruction",
+                "publication_year": "2023",
+                "citation_count": 5
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://www.mdpi.com/2072-4292/15/14/3585",
+                "paper_title": "A critical analysis of NeRF-based 3d reconstruction",
+                "publication_year": "2023",
+                "citation_count": 17
+            }
+        ],
+        "paper_url": "https://dl.acm.org/doi/abs/10.1145/3592426",
+        "paper_title": "Merf: Memory-efficient radiance fields for real-time view synthesis in unbounded scenes",
+        "publication_year": "2023",
+        "citation_count": 94
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2210.00379",
+                "paper_title": "Nerf: Neural radiance field in 3d vision, a comprehensive review",
+                "publication_year": "2210",
+                "citation_count": 107
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://sgvr.kaist.ac.kr/~sungeui/ICG/Students/%5BCS482%5D%203D%20Gaussian%20Splatting%20for%20Real-Time%20Radiance%20Field%20Rendering.pdf",
+                "paper_title": "3d gaussian splatting for real-time radiance field rendering",
+                "publication_year": "2023",
+                "citation_count": 628
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3592415",
+                "paper_title": "Humanrf: High-fidelity neural radiance fields for humans in motion",
+                "publication_year": "2023",
+                "citation_count": 59
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3592426",
+                "paper_title": "Merf: Memory-efficient radiance fields for real-time view synthesis in unbounded scenes",
+                "publication_year": "2023",
+                "citation_count": 94
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Hu_Tri-MipRF_Tri-Mip_Representation_for_Efficient_Anti-Aliasing_Neural_Radiance_Fields_ICCV_2023_paper.html",
+                "paper_title": "Tri-miprf: Tri-mip representation for efficient anti-aliasing neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 49
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3592101",
+                "paper_title": "Avatarrex: Real-time expressive full-body avatars",
+                "publication_year": "2023",
+                "citation_count": 38
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Mirzaei_SPIn-NeRF_Multiview_Segmentation_and_Perceptual_Inpainting_With_Neural_Radiance_Fields_CVPR_2023_paper.html",
+                "paper_title": "SPIn-NeRF: Multiview segmentation and perceptual inpainting with neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 66
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Peng_Representing_Volumetric_Videos_As_Dynamic_MLP_Maps_CVPR_2023_paper.html",
+                "paper_title": "Representing volumetric videos as dynamic mlp maps",
+                "publication_year": "2023",
+                "citation_count": 28
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3588432.3591536",
+                "paper_title": "Bakedsdf: Meshing neural sdfs for real-time view synthesis",
+                "publication_year": "2023",
+                "citation_count": 77
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://openaccess.thecvf.com/content/ICCV2023W/CVAMD/html/Molaei_Implicit_Neural_Representation_in_Medical_Imaging_A_Comparative_Survey_ICCVW_2023_paper.html",
+                "paper_title": "Implicit neural representation in medical imaging: A comparative survey",
+                "publication_year": "2023",
+                "citation_count": 20
+            }
+        ],
+        "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Chen_MobileNeRF_Exploiting_the_Polygon_Rasterization_Pipeline_for_Efficient_Neural_Field_CVPR_2023_paper.html",
+        "paper_title": "Mobilenerf: Exploiting the polygon rasterization pipeline for efficient neural field rendering on mobile architectures",
+        "publication_year": "2023",
+        "citation_count": 200
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Barron_Zip-NeRF_Anti-Aliased_Grid-Based_Neural_Radiance_Fields_ICCV_2023_paper.html",
+                "paper_title": "Zip-nerf: Anti-aliased grid-based neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 192
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2022/html/Tancik_Block-NeRF_Scalable_Large_Scene_Neural_View_Synthesis_CVPR_2022_paper.html",
+                "paper_title": "Block-nerf: Scalable large scene neural view synthesis",
+                "publication_year": "2022",
+                "citation_count": 518
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3528223.3530127",
+                "paper_title": "Instant neural graphics primitives with a multiresolution hash encoding",
+                "publication_year": "2022",
+                "citation_count": 2195
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3588432.3591516",
+                "paper_title": "Nerfstudio: A modular framework for neural radiance field development",
+                "publication_year": "2023",
+                "citation_count": 255
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Chen_MobileNeRF_Exploiting_the_Polygon_Rasterization_Pipeline_for_Efficient_Neural_Field_CVPR_2023_paper.html",
+                "paper_title": "Mobilenerf: Exploiting the polygon rasterization pipeline for efficient neural field rendering on mobile architectures",
+                "publication_year": "2023",
+                "citation_count": 200
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2022/html/Chan_Efficient_Geometry-Aware_3D_Generative_Adversarial_Networks_CVPR_2022_paper.html",
+                "paper_title": "Efficient geometry-aware 3d generative adversarial networks",
+                "publication_year": "2022",
+                "citation_count": 942
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2022/html/Fridovich-Keil_Plenoxels_Radiance_Fields_Without_Neural_Networks_CVPR_2022_paper.html",
+                "paper_title": "Plenoxels: Radiance fields without neural networks",
+                "publication_year": "2022",
+                "citation_count": 760
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2022/html/Barron_Mip-NeRF_360_Unbounded_Anti-Aliased_Neural_Radiance_Fields_CVPR_2022_paper.html",
+                "paper_title": "Mip-nerf 360: Unbounded anti-aliased neural radiance fields",
+                "publication_year": "2022",
+                "citation_count": 895
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.html",
+                "paper_title": "Unisim: A neural closed-loop sensor simulator",
+                "publication_year": "2023",
+                "citation_count": 78
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://www.mdpi.com/2079-9292/12/1/218",
+                "paper_title": "Human-computer interaction system: A survey of talking-head generation",
+                "publication_year": "2023",
+                "citation_count": 26
+            }
+        ],
+        "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14340",
+        "paper_title": "DONeRF: Towards Real\u2010Time Rendering of Compact Neural Radiance Fields using Depth Oracle Networks",
+        "publication_year": "2021",
+        "citation_count": 264
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://www.sciencedirect.com/science/article/pii/S1569843222001169",
+                "paper_title": "Digital twin of a city: Review of technology serving city needs",
+                "publication_year": "2022",
+                "citation_count": 93
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2210.00379",
+                "paper_title": "Nerf: Neural radiance field in 3d vision, a comprehensive review",
+                "publication_year": "2210",
+                "citation_count": 107
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://sgvr.kaist.ac.kr/~sungeui/ICG/Students/%5BCS482%5D%203D%20Gaussian%20Splatting%20for%20Real-Time%20Radiance%20Field%20Rendering.pdf",
+                "paper_title": "3d gaussian splatting for real-time radiance field rendering",
+                "publication_year": "2023",
+                "citation_count": 628
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-19824-3_20",
+                "paper_title": "Tensorf: Tensorial radiance fields",
+                "publication_year": "2022",
+                "citation_count": 816
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Fridovich-Keil_K-Planes_Explicit_Radiance_Fields_in_Space_Time_and_Appearance_CVPR_2023_paper.html",
+                "paper_title": "K-planes: Explicit radiance fields in space, time, and appearance",
+                "publication_year": "2023",
+                "citation_count": 210
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Cao_HexPlane_A_Fast_Representation_for_Dynamic_Scenes_CVPR_2023_paper.html",
+                "paper_title": "Hexplane: A fast representation for dynamic scenes",
+                "publication_year": "2023",
+                "citation_count": 175
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2022/html/Tancik_Block-NeRF_Scalable_Large_Scene_Neural_View_Synthesis_CVPR_2022_paper.html",
+                "paper_title": "Block-nerf: Scalable large scene neural view synthesis",
+                "publication_year": "2022",
+                "citation_count": 518
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3528223.3530127",
+                "paper_title": "Instant neural graphics primitives with a multiresolution hash encoding",
+                "publication_year": "2022",
+                "citation_count": 2195
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Chen_MobileNeRF_Exploiting_the_Polygon_Rasterization_Pipeline_for_Efficient_Neural_Field_CVPR_2023_paper.html",
+                "paper_title": "Mobilenerf: Exploiting the polygon rasterization pipeline for efficient neural field rendering on mobile architectures",
+                "publication_year": "2023",
+                "citation_count": 200
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2022/html/Chan_Efficient_Geometry-Aware_3D_Generative_Adversarial_Networks_CVPR_2022_paper.html",
+                "paper_title": "Efficient geometry-aware 3d generative adversarial networks",
+                "publication_year": "2022",
+                "citation_count": 942
+            }
+        ],
+        "paper_url": "http://openaccess.thecvf.com/content/ICCV2021/html/Yu_PlenOctrees_for_Real-Time_Rendering_of_Neural_Radiance_Fields_ICCV_2021_paper.html",
+        "paper_title": "Plenoctrees for real-time rendering of neural radiance fields",
+        "publication_year": "2021",
+        "citation_count": 789
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/767c1b5f7c03d9299e493bc9e1feeba6-Abstract-Conference.html",
+                "paper_title": "Pynerf: Pyramidal neural radiance fields",
+                "publication_year": "2024",
+                "citation_count": 4
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3610548.3618197",
+                "paper_title": "Anti-aliased neural implicit surfaces with encoding level of detail",
+                "publication_year": "2023",
                 "citation_count": 12
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://link.springer.com/chapter/10.1007/978-1-349-62885-8_5",
-                "paper_title": "A Centre that Would not Hold: Annuals and Cultural Democracy",
-                "publication_year": "2000",
-                "citation_count": 24
+                "paper_url": "https://arxiv.org/abs/2304.08757",
+                "paper_title": "NeAI: A Pre-convoluted Representation for Plug-and-Play Neural Ambient Illumination",
+                "publication_year": "2023",
+                "citation_count": 6
             },
             {
                 "related_papers": [],
                 "cited_papers": [],
-                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=FAXWDwAAQBAJ&oi=fnd&pg=PT5&ots=Xaboxxrz2Y&sig=vbBQ0Gbio5x5X9aqZY2S8fRJ_Io",
-                "paper_title": "Literature and inequality",
-                "publication_year": "2020",
-                "citation_count": 5
+                "paper_url": "https://3dvar.com/Li2024Advances.pdf",
+                "paper_title": "Advances in 3D Generation: A Survey",
+                "publication_year": "2401",
+                "citation_count": 1
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2405.01333",
+                "paper_title": "NeRF in Robotics: A Survey",
+                "publication_year": "2024",
+                "citation_count": 1
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2401.17807",
+                "paper_title": "Advances in 3D Generation: A Survey",
+                "publication_year": "2024",
+                "citation_count": 3
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28618",
+                "paper_title": "A Pre-convolved Representation for Plug-and-Play Neural Illumination Fields",
+                "publication_year": "2024",
+                "citation_count": null
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2308.13897",
+                "paper_title": "InsertNeRF: Instilling Generalizability into NeRF with HyperNet Modules",
+                "publication_year": "2308",
+                "citation_count": 2
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2309.12642",
+                "paper_title": "RHINO: Regularizing the Hash-based Implicit Neural Representation",
+                "publication_year": "2309",
+                "citation_count": 2
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2311.11845",
+                "paper_title": "Entangled View-Epipolar Information Aggregation for Generalizable Neural Radiance Fields",
+                "publication_year": "2311",
+                "citation_count": 2
             }
         ],
-        "paper_url": "https://www.cambridge.org/core/journals/pmla/article/spectacular-sympathy-visuality-and-ideology-in-dickenss-a-christmas-carol/5B6363CBCC63BF021719079F3B1269BB",
-        "paper_title": "Spectacular sympathy: visuality and ideology in Dickens's A Christmas Carol",
-        "publication_year": "1994",
-        "citation_count": 100
+        "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Huang_Local_Implicit_Ray_Function_for_Generalizable_Radiance_Field_Representation_CVPR_2023_paper.html",
+        "paper_title": "Local implicit ray function for generalizable radiance field representation",
+        "publication_year": "2023",
+        "citation_count": 18
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2012.02093.x",
+                "paper_title": "The state of the art in interactive global illumination",
+                "publication_year": "2012",
+                "citation_count": 231
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Levy_SeaThru-NeRF_Neural_Radiance_Fields_in_Scattering_Media_CVPR_2023_paper.html",
+                "paper_title": "Seathru-nerf: Neural radiance fields in scattering media",
+                "publication_year": "2023",
+                "citation_count": 19
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://www.taylorfrancis.com/books/mono/10.1201/9781315365459/real-time-rendering-tomas-akenine-mo%CC%88ller-eric-haines-naty-hoffman",
+                "paper_title": "Real-time rendering",
+                "publication_year": "2019",
+                "citation_count": 3172
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://ieeexplore.ieee.org/abstract/document/4483798/",
+                "paper_title": "Active polarization descattering",
+                "publication_year": "2008",
+                "citation_count": 485
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/1179352.1141986",
+                "paper_title": "Acquiring scattering properties of participating media by dilution",
+                "publication_year": "2006",
+                "citation_count": 212
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/1179352.1141997",
+                "paper_title": "Multidimensional lightcuts",
+                "publication_year": "2006",
+                "citation_count": 225
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/1899404.1899409",
+                "paper_title": "A comprehensive theory of volumetric radiance estimation using photon points and beams",
+                "publication_year": "2011",
+                "citation_count": 180
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/1833349.1778790",
+                "paper_title": "A radiative transfer framework for rendering materials with anisotropic structure",
+                "publication_year": "2010",
+                "citation_count": 161
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content_iccv_2015/html/Murez_Photometric_Stereo_in_ICCV_2015_paper.html",
+                "paper_title": "Photometric stereo in a scattering medium",
+                "publication_year": "2015",
+                "citation_count": 104
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://books.google.com/books?hl=zh-CN&lr=&id=GzA-Hi0_680C&oi=fnd&pg=PP1&ots=Sexpp5peMg&sig=Id7trgak8wNfYBXSTIKHaR0XNvE",
+                "paper_title": "Real-time shadows",
+                "publication_year": "2011",
+                "citation_count": 144
+            }
+        ],
+        "paper_url": "https://dl.acm.org/doi/abs/10.1145/1073204.1073309",
+        "paper_title": "A practical analytic single scattering model for real time rendering",
+        "publication_year": "2005",
+        "citation_count": 210
+    },
+    {
+        "related_papers": [],
+        "cited_papers": [
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://dl.acm.org/doi/abs/10.1145/3592426",
+                "paper_title": "Merf: Memory-efficient radiance fields for real-time view synthesis in unbounded scenes",
+                "publication_year": "2023",
+                "citation_count": 94
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://ieeexplore.ieee.org/abstract/document/10049689/",
+                "paper_title": "Nerfplayer: A streamable dynamic scene representation with decomposed neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 105
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Attal_HyperReel_High-Fidelity_6-DoF_Video_With_Ray-Conditioned_Sampling_CVPR_2023_paper.html",
+                "paper_title": "HyperReel: High-fidelity 6-DoF video with ray-conditioned sampling",
+                "publication_year": "2023",
+                "citation_count": 52
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Mirzaei_Reference-guided_Controllable_Inpainting_of_Neural_Radiance_Fields_ICCV_2023_paper.html",
+                "paper_title": "Reference-guided controllable inpainting of neural radiance fields",
+                "publication_year": "2023",
+                "citation_count": 16
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Wan_Learning_Neural_Duplex_Radiance_Fields_for_Real-Time_View_Synthesis_CVPR_2023_paper.html",
+                "paper_title": "Learning neural duplex radiance fields for real-time view synthesis",
+                "publication_year": "2023",
+                "citation_count": 16
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Zhou_NeRFLix_High-Quality_Neural_View_Synthesis_by_Learning_a_Degradation-Driven_Inter-Viewpoint_CVPR_2023_paper.html",
+                "paper_title": "NeRFLix: High-quality neural view synthesis by learning a degradation-driven inter-viewpoint mixer",
+                "publication_year": "2023",
+                "citation_count": 12
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Cao_SceneRF_Self-Supervised_Monocular_3D_Scene_Reconstruction_with_Radiance_Fields_ICCV_2023_paper.html",
+                "paper_title": "Scenerf: Self-supervised monocular 3d scene reconstruction with radiance fields",
+                "publication_year": "2023",
+                "citation_count": 19
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Zheng_Multi-task_View_Synthesis_with_Neural_Radiance_Fields_ICCV_2023_paper.html",
+                "paper_title": "Multi-task View Synthesis with Neural Radiance Fields",
+                "publication_year": "2023",
+                "citation_count": 3
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Xie_HollowNeRF_Pruning_Hashgrid-Based_NeRFs_with_Trainable_Collision_Mitigation_ICCV_2023_paper.html",
+                "paper_title": "Hollownerf: Pruning hashgrid-based nerfs with trainable collision mitigation",
+                "publication_year": "2023",
+                "citation_count": 7
+            },
+            {
+                "related_papers": [],
+                "cited_papers": [],
+                "paper_url": "https://arxiv.org/abs/2308.08947",
+                "paper_title": "Watch your steps: Local image and scene editing by text instructions",
+                "publication_year": "2023",
+                "citation_count": 9
+            }
+        ],
+        "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-19790-1_16",
+        "paper_title": "Adanerf: Adaptive sampling for real-time rendering of neural radiance fields",
+        "publication_year": "2022",
+        "citation_count": 56
     }
 ]
