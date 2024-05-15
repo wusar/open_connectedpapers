@@ -79,36 +79,49 @@ def parse_paper_div(paper_div, paper_data={}):
         logger.error(f"Error parsing paper div: {e}")
 
 
+# Extract all citations of the paper
+options = webdriver.EdgeOptions()
+# options.add_argument("--incognito")
+
+# options.add_experimental_option("excludeSwitches", ["enable-automation"])
+# options.add_argument("--no-sandbox")
+# options.add_argument("--lang=zh-CN")
+# options.add_argument("user-agent=foo")
+# options.add_argument("--user-data-dir="+r"C:/Users/USTC/AppData/Local/Microsoft/Edge/User Data")
+
+driver = webdriver.Edge(options=options)
+
+first_time = True
+
+
 # Function to get all papers' information from Google Scholar
 def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
-    # Extract all citations of the paper
-    options = webdriver.EdgeOptions()
-    # options.add_argument("--incognito")
-
-    # options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    # options.add_argument("--no-sandbox")
-    # options.add_argument("--lang=zh-CN")
-    # options.add_argument("user-agent=foo")
-    # options.add_argument("--user-data-dir="+r"C:/Users/USTC/AppData/Local/Microsoft/Edge/User Data")
-
-    driver = webdriver.Edge(options=options)
     driver.get("https://scholar.google.com/")
+
     # 定位搜索框
     search_box = driver.find_element(By.ID, "gs_hdr_tsi")
 
     # 输入要搜索的论文名称
     search_box.send_keys(paper_name)
-    time.sleep(random.randint(0, 2))
+    sleep(random.randint(0, 2))
 
     # Locate and click the submit button
     submit_button = driver.find_element(By.ID, "gs_hdr_tsb")
-    sleep(random.randint(0, 2))
     submit_button.click()
 
+    # If this is the first time, pause and ask the user to solve the captcha
+    if first_time:
+        input("Please manually solve the captcha and press Enter to continue...")
+        first_time = False
+
     # Choose the first paper in the search results as the target paper
-    allpaper_innerHTML = driver.find_element(
-        By.ID, value="gs_res_ccl_mid"
-    ).get_attribute("innerHTML")
+    try:
+        allpaper_innerHTML = driver.find_element(
+            By.ID, value="gs_res_ccl_mid"
+        ).get_attribute("innerHTML")
+    except:
+        logger.info("No search results found")
+        return paper_data
 
     soup = BeautifulSoup(allpaper_innerHTML, "lxml")
 
@@ -145,15 +158,15 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
         except:
             next_page_button = None
         if next_page_button:
+            sleep(random.randint(0, 2))
             next_page_button.click()
         else:
             break
-    driver.close()
     return paper_data
 
 
 # Function to get paper data and save it in JSON format
-def get_paper_data():
+def get_all_paper_data():
     all_paper_data = []
     root_paper_data = {}
     # Get the root paper data and its site and related information
@@ -165,24 +178,18 @@ def get_paper_data():
     )
 
     all_paper_data.append(root_paper_data)
-    # Get citation information for each paper
-    for paper in root_paper_data["cited_papers"]:
-        citation_paper_data = search_paper_data(
-            paper["paper_title"], reuqired_info="cited"
-        )
-        all_paper_data.append(citation_paper_data)
 
-    # Get related work information for each paper
+    # Get citation information for each related paper
     for paper in root_paper_data["related_papers"]:
         related_paper_data = search_paper_data(
-            paper["paper_title"], reuqired_info="related"
+            paper["paper_title"], reuqired_info="cited"
         )
         all_paper_data.append(related_paper_data)
 
     # Save data in JSON format
     with open("papers_data.json", "w") as f:
-        json.dump(papers_citation_data, f)
-    return papers_citation_data
+        json.dump(all_paper_data, f)
+    return all_paper_data
 
 
 # Function to convert RGBA color to hexadecimal format
@@ -244,5 +251,6 @@ def visualize():
 
 # Main function
 if __name__ == "__main__":
-    papers_citation_data = get_paper_data()
+    papers_citation_data = get_all_paper_data()
+    driver.close()
     visualize()
