@@ -27,8 +27,9 @@ def build_graph():
 
 
 # Extract the paper information from the paper div
-def parse_paper_div(paper_div, paper_data={}):
+def parse_paper_div(paper_div):
     try:
+        paper_data = {}
         paper_data["related_papers"] = []
         paper_data["cited_papers"] = []
         if paper_div is None:
@@ -95,7 +96,7 @@ first_time = True
 
 
 # Function to get all papers' information from Google Scholar
-def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
+def search_paper_data(paper_name, reuqired_info="related"):
     driver.get("https://scholar.google.com/")
 
     # 定位搜索框
@@ -123,7 +124,7 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
         ).get_attribute("innerHTML")
     except:
         logger.info("No search results found")
-        return paper_data
+        return {}
 
     soup = BeautifulSoup(allpaper_innerHTML, "lxml")
 
@@ -131,11 +132,11 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
         all_paper_elements = soup.find_all("div", class_="gs_r gs_or gs_scl")
         if len(all_paper_elements) == 0:
             logger.info("No search results found")
-            return paper_data
+            return {}
     except:
         logger.info("No search results found")
-        return paper_data
-    paper_data = parse_paper_div(all_paper_elements[0], paper_data)
+        return {}
+    paper_data = parse_paper_div(all_paper_elements[0])
 
     # We need to get the related work of this paper
     if reuqired_info == "related":
@@ -178,15 +179,15 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
 # Function to get paper data and save it in JSON format
 def get_all_paper_data():
     all_paper_data = []
-    root_paper_data = {}
     # Get the root paper data and its site and related information
-    root_paper_data = search_paper_data(
-        "hello paper", reuqired_info="cited", paper_data=root_paper_data
-    )
-    root_paper_data = search_paper_data(
-        "hello paper", reuqired_info="related", paper_data=root_paper_data
-    )
-
+    root_paper_data_cited = search_paper_data("hello paper", reuqired_info="cited")
+    root_paper_data_related = search_paper_data("hello paper", reuqired_info="related")
+    # Combine the root paper data and its related information
+    root_paper_data = {}
+    for key in root_paper_data_cited:
+        root_paper_data[key] = root_paper_data_cited[key]
+    for key in root_paper_data_related:
+        root_paper_data[key] = root_paper_data_related[key]
     all_paper_data.append(root_paper_data)
 
     # Get citation information for each related paper
