@@ -92,8 +92,6 @@ options = webdriver.EdgeOptions()
 
 driver = webdriver.Edge(options=options)
 
-first_time = True
-
 
 # Function to get all papers' information from Google Scholar
 def search_paper_data(paper_name, reuqired_info="related"):
@@ -107,15 +105,9 @@ def search_paper_data(paper_name, reuqired_info="related"):
 
     # Locate and click the submit button
     submit_button = driver.find_element(By.ID, "gs_hdr_tsb")
-    sleep(random.randint(3, 6))
+    sleep(random.randint(1, 3))
 
     submit_button.click()
-
-    global first_time
-    # If this is the first time, pause and ask the user to solve the captcha
-    if first_time:
-        input("Please manually solve the captcha and press Enter to continue...")
-        first_time = False
 
     # Choose the first paper in the search results as the target paper
     try:
@@ -142,14 +134,15 @@ def search_paper_data(paper_name, reuqired_info="related"):
     if reuqired_info == "related":
         # 点击'相关文章'链接
         related_articles_link = driver.find_element(By.PARTIAL_LINK_TEXT, "相关文章")
-        sleep(random.randint(3, 6))
+        sleep(random.randint(1, 3))
         related_articles_link.click()
     elif reuqired_info == "cited":
         # 点击'被引用次数'链接
         cited_by_link = driver.find_element(By.PARTIAL_LINK_TEXT, "被引用次数")
-        sleep(random.randint(3, 6))
+        sleep(random.randint(1, 3))
         cited_by_link.click()
 
+    logger.info(f"Extracting {reuqired_info} papers")
     # Extract data from up to 2 pages of search results
     for _ in range(page_num):
         allpaper_innerHTML = driver.find_element(
@@ -169,7 +162,7 @@ def search_paper_data(paper_name, reuqired_info="related"):
         except:
             next_page_button = None
         if next_page_button:
-            sleep(random.randint(3, 6))
+            sleep(random.randint(1, 3))
             next_page_button.click()
         else:
             break
@@ -187,7 +180,7 @@ def get_all_paper_data():
     all_paper_data.append(root_paper_data_related)
 
     # Get citation information for each related paper
-    for paper in root_paper_data_related:
+    for paper in root_paper_data_related["related_papers"]:
         related_paper_data = search_paper_data(
             paper["paper_title"], reuqired_info="cited"
         )
@@ -262,6 +255,6 @@ def visualize():
 
 # Main function
 if __name__ == "__main__":
-    # papers_citation_data = get_all_paper_data()
+    papers_citation_data = get_all_paper_data()
     driver.close()
     visualize()
