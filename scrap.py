@@ -9,9 +9,15 @@ import json
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from datetime import datetime
+import time
+import random
+
 
 # Configure logging
 logger = logging.getLogger(__name__)
+
+# The maximum number of pages to extract data from
+page_num = 2
 
 
 # Placeholder function to build the citation graph (to be implemented)
@@ -21,9 +27,10 @@ def build_graph():
 
 
 # Extract the paper information from the paper div
-def parse_paper_div(paper_div, papers_data):
+def parse_paper_div(paper_div, paper_data={}):
     try:
-        paper_info = {}
+        paper_data["related_papers"] = []
+        paper_data["cited_papers"] = []
         if paper_div is None:
             logger.error("paper_div is None")
 
@@ -38,10 +45,10 @@ def parse_paper_div(paper_div, papers_data):
         else:
             paper_url = paper_title_elemets.find("a")["href"]
             paper_title = paper_div.find("h3", class_="gs_rt").find("a").text.strip()
-        paper_info["paper_url"] = paper_url
+        paper_data["paper_url"] = paper_url
 
         # Extract paper title
-        paper_info["paper_title"] = paper_title
+        paper_data["paper_title"] = paper_title
 
         # Extract publication date
         publication_date_str = paper_div.find("div", class_="gs_a").text.strip()
@@ -53,7 +60,7 @@ def parse_paper_div(paper_div, papers_data):
             publication_year = year_match.group()
         else:
             publication_year = None
-        paper_info["publication_year"] = publication_year
+        paper_data["publication_year"] = publication_year
 
         # Extract citation count
         citation_count_element = paper_div.find(
@@ -65,42 +72,73 @@ def parse_paper_div(paper_div, papers_data):
             citation_count = int(citation_count_text)
         else:
             citation_count = None
-        paper_info["citation_count"] = citation_count
-
-        # Extract the citation work url
-        citation_work_elements = paper_div.find("a", href=True, text="相关文章")
-        if citation_work_elements is None:
-            citation_url = None
-        else:
-            citation_url = citation_work_elements["href"]
-        paper_info["citation_url"] = citation_url
-
-        papers_data.append(paper_info)
+        paper_data["citation_count"] = citation_count
+        return paper_data
 
     except Exception as e:
         logger.error(f"Error parsing paper div: {e}")
 
 
 # Function to get all papers' information from Google Scholar
-def get_all_papers_info(paper_url):
+def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
     # Extract all citations of the paper
-    driver = webdriver.Edge()
-    driver.get(paper_url)
+    options = webdriver.EdgeOptions()
+    # options.add_argument("--incognito")
+
+    # options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    # options.add_argument("--no-sandbox")
+    # options.add_argument("--lang=zh-CN")
+    # options.add_argument("user-agent=foo")
+    # options.add_argument("--user-data-dir="+r"C:/Users/USTC/AppData/Local/Microsoft/Edge/User Data")
+
+    driver = webdriver.Edge(options=options)
+    driver.get("https://scholar.google.com/")
+    # 定位搜索框
+    search_box = driver.find_element(By.ID, "gs_hdr_tsi")
+
+    # 输入要搜索的论文名称
+    search_box.send_keys(paper_name)
+    time.sleep(random.randint(0, 2))
 
     # Locate and click the submit button
     submit_button = driver.find_element(By.ID, "gs_hdr_tsb")
+    sleep(random.randint(0, 2))
     submit_button.click()
-    papers_data = []
+
+    # Choose the first paper in the search results as the target paper
+    allpaper_innerHTML = driver.find_element(
+        By.ID, value="gs_res_ccl_mid"
+    ).get_attribute("innerHTML")
+
+    soup = BeautifulSoup(allpaper_innerHTML, "lxml")
+
+    paper_data = parse_paper_div(
+        soup.find_all("div", class_="gs_r gs_or gs_scl")[0], paper_data
+    )
+
+    # We need to get the related work of this paper
+    if reuqired_info == "related":
+        # 点击'相关文章'链接
+        related_articles_link = driver.find_element(By.PARTIAL_LINK_TEXT, "相关文章")
+        related_articles_link.click()
+    elif reuqired_info == "cited":
+        # 点击'被引用次数'链接
+        cited_by_link = driver.find_element(By.PARTIAL_LINK_TEXT, "被引用次数")
+        cited_by_link.click()
 
     # Extract data from up to 2 pages of search results
-    for _ in range(2):
+    for _ in range(page_num):
         allpaper_innerHTML = driver.find_element(
             By.ID, value="gs_res_ccl_mid"
         ).get_attribute("innerHTML")
 
         soup = BeautifulSoup(allpaper_innerHTML, "lxml")
         for paper_div in soup.find_all("div", class_="gs_r gs_or gs_scl"):
-            parse_paper_div(paper_div, papers_data)
+            other_paper_data = parse_paper_div(paper_div)
+            if reuqired_info == "related":
+                paper_data["related_papers"].append(other_paper_data)
+            elif reuqired_info == "cited":
+                paper_data["cited_papers"].append(other_paper_data)
         # Find and click the next page button, exit if not found
         try:
             next_page_button = driver.find_element(By.LINK_TEXT, "下一页")
@@ -111,20 +149,35 @@ def get_all_papers_info(paper_url):
         else:
             break
     driver.close()
-    return papers_data
+    return paper_data
 
 
 # Function to get paper data and save it in JSON format
 def get_paper_data():
-    papers_citation_data = get_all_papers_info(
-        "https://scholar.google.com/scholar?cites=18198394694373496650&as_sdt=5,29&sciodt=0,29&hl=zh-CN"
+    all_paper_data = []
+    root_paper_data = {}
+    # Get the root paper data and its site and related information
+    root_paper_data = search_paper_data(
+        "hello paper", reuqired_info="cited", paper_data=root_paper_data
+    )
+    root_paper_data = search_paper_data(
+        "hello paper", reuqired_info="related", paper_data=root_paper_data
     )
 
+    all_paper_data.append(root_paper_data)
     # Get citation information for each paper
-    for paper in papers_citation_data:
-        citation_url = "https://scholar.google.com" + paper["citation_url"]
-        citation_paper_data = get_all_papers_info(citation_url)
-        paper["citation_papers_data"] = citation_paper_data
+    for paper in root_paper_data["cited_papers"]:
+        citation_paper_data = search_paper_data(
+            paper["paper_title"], reuqired_info="cited"
+        )
+        all_paper_data.append(citation_paper_data)
+
+    # Get related work information for each paper
+    for paper in root_paper_data["related_papers"]:
+        related_paper_data = search_paper_data(
+            paper["paper_title"], reuqired_info="related"
+        )
+        all_paper_data.append(related_paper_data)
 
     # Save data in JSON format
     with open("papers_data.json", "w") as f:
