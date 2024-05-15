@@ -109,6 +109,7 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
     submit_button = driver.find_element(By.ID, "gs_hdr_tsb")
     submit_button.click()
 
+    global first_time
     # If this is the first time, pause and ask the user to solve the captcha
     if first_time:
         input("Please manually solve the captcha and press Enter to continue...")
@@ -125,9 +126,15 @@ def search_paper_data(paper_name, reuqired_info="related", paper_data={}):
 
     soup = BeautifulSoup(allpaper_innerHTML, "lxml")
 
-    paper_data = parse_paper_div(
-        soup.find_all("div", class_="gs_r gs_or gs_scl")[0], paper_data
-    )
+    try:
+        all_paper_elements = soup.find_all("div", class_="gs_r gs_or gs_scl")
+        if len(all_paper_elements) == 0:
+            logger.info("No search results found")
+            return paper_data
+    except:
+        logger.info("No search results found")
+        return paper_data
+    paper_data = parse_paper_div(all_paper_elements[0], paper_data)
 
     # We need to get the related work of this paper
     if reuqired_info == "related":
